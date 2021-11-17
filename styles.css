@@ -3,25 +3,86 @@
     margin: 0;
     padding: 0;
 }
+#barra a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+    top: 100px;
+    position: absolute;
+    width: 100%;
+}
+img{
+    width: 40px;
 
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav{
+    background-color: rgba(16, 16, 16, .5);
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    position: absolute;
+    transition: all .10s;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(200px);
+}
+#barra a{
+    display: block;
+    padding: 20px 5px;
+    color: #ffffff;
+}
+#barra a:hover{
+    background-color: rgb(176, 224, 230);
+    color: #000;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #5c5c5c;
     height: 100px;
-    margin-bottom: 50px;
 }
 header #pesquisa{
     display: flex;
     width: 100%;
     margin-left: 10px;
 }
-header #pesquisa #saudação{
+header #pesquisa #login{
+    display: flex;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
     font-size: 25px;
+
+    margin-right: 10px;
+    cursor: pointer;
+}
+header #pesquisa #saudação #home, #login:hover{
+    color: #ff0000;
+    transition: 0.05s;
+    opacity: 1.5;
+
+}
+header #pesquisa #saudação #home{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
 }
 
 header #busca{
@@ -46,32 +107,42 @@ header #busca input{
 header img{
     width: 80px;    
 }
+body .row{
+    margin-top: 100px;
+    position: absolute;
+}
 
-#lateral #filtro p{
+/*#hotbar {
     display: flex;
-    align-items: center;
-    color: #ff0000;
-    font-size: 20px;
-}
-#lateral #filtro{
-    display: flex;
-    align-items: center;
-
-    margin-top: 8px;
-    margin-right: 20px;
-    cursor: pointer;
-    color: #ffffff;
-    border: solid 2px;
-    border-radius: 5px;
-    height: 40px;
-
-    transition: 0,3s;
-}
-#lateral #filtro img{
-    width: 35px;
-    margin: 0 10px 0 10px;
+    justify-content: center;
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color:#EDEDED;
+    list-style:none;
+    font:80% Tahoma;
 }
 
+
+#hotbar a {
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 2px 10px;
+    float:left;
+}
+
+#hotbar a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+#hotbar a{
+    text-decoration: none;
+}*/
 
 main #lista{
     max-width: 90%;
