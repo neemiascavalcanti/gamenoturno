@@ -4,50 +4,58 @@
     padding: 0;
 }
 @media screen and(max-height:1650px){
-    #barra a{
-        text-decoration: none;
-        color: #000;
+    main #lista{
+        max-width: 90%;
+        margin: 10px auto;
     }
-    body{
+    main #lista #jogos{
+        font-size:10vw;
+        color: #756464;
+        font-weight: 700;
+        padding-bottom: 10px;
         font-family: 'Roboto', sans-serif;
     }
-    ul{
-        list-style: none;
-        top: 100px;
-        position: absolute;
-        width: 100%;
+    main #lista #list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    img{
-        width: 40px;
+    main #lista #list .encard{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     
+        max-width: 40%;
+        height: 170px;
+        margin: 25px 25px;
     }
-    input[type="checkbox"]{
-        display: none;
-    }
-    nav{
-        background-color: rgba(16, 16, 16, .5);
-        width: 200px;
+    main #lista #list .encard .jogo img{
+        width: 300px;
         height: 100%;
-        left: -200px;
-        position: absolute;
-        transition: all .10s;
+        cursor: pointer;
+        color: #756464;
+        margin: 10px 10px;
     }
-    input[type="checkbox"]:checked ~ nav{
-        transform: translateX(200px);
+    main #lista #list .encard .jogo .item{
+        margin: 100 10px 100 10px;
+        
+        display: flex;
+        flex-direction:column-reverse;
     }
-    #barra a{
-        display: block;
-        padding: 20px 5px;
-        color: #ffffff;
+    main #lista #list .encard .item .nome{
+        font-family: 'Roboto', sans-serif;    
+        font-weight: 400;
+        font-size: 15px;
+        margin:20px 5px;
+        
+        
     }
-    #barra a:hover{
-        background-color: rgb(176, 224, 230);
-        color: #000;
-    }
-    label{
-        padding: 15px;
-        position: absolute;
-        z-index: 1;
+    main #lista #list .encard .item .descrição{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        margin: 20px 10px;
+        font-size: 15px;
+        
     }
 }
 #barra a{
@@ -155,7 +163,7 @@ header img{
     width: 80px;    
 }
 
-main #lista{
+/*main #lista{
     max-width: 90%;
     margin: 10px auto;
 }
