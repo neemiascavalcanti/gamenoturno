@@ -107,37 +107,6 @@ header #busca input{
 header img{
     width: 80px;    
 }
-/*#hotbar {
-    display: flex;
-    justify-content: center;
-    padding:0px;
-    margin:0px;
-    float: left;
-    width: 100%;
-    background-color:#EDEDED;
-    list-style:none;
-    font:80% Tahoma;
-}
-
-
-#hotbar a {
-    background-color:#EDEDED;
-    color: #333;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
-    padding: 2px 10px;
-    float:left;
-}
-
-#hotbar a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
-}
-
-#hotbar a{
-    text-decoration: none;
-}*/
 
 main #lista{
     max-width: 90%;
@@ -160,29 +129,36 @@ main #lista #list .encard{
     justify-content: space-between;
     align-items: center;
 
-    max-width: 45%;
-    height: 150px;
-
+    max-width: 40%;
+    height: 170px;
+    background-color: rgba(16, 16, 16, .5);
     margin: 25px 25px;
 }
 main #lista #list .encard .jogo img{
     width: 300px;
     height: 100%;
     cursor: pointer;
-    color: #ffffff;
+    color: #756464;
+    margin: 10px 10px;
 }
 main #lista #list .encard .jogo .item{
     margin: 100 10px 100 10px;
-
+    
     display: flex;
     flex-direction:column-reverse;
 }
-main #lista #list .encard .item p{
+main #lista #list .encard .item .nome{
     font-family: 'Roboto', sans-serif;    
     font-weight: 400;
     font-size: 15px;
-    margin:20px 0px;
+    margin:20px 5px;
+    
+    
 }
 main #lista #list .encard .item .descrição{
-    margin: auto 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 20px 10px;
+    font-size: 15px;
+    
 }
