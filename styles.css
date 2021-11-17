@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width:720px){
+@media screen and(max-height:1650px){
     #barra a{
         text-decoration: none;
         color: #000;
