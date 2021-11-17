@@ -107,11 +107,6 @@ header #busca input{
 header img{
     width: 80px;    
 }
-body .row{
-    margin-top: 100px;
-    position: absolute;
-}
-
 /*#hotbar {
     display: flex;
     justify-content: center;
