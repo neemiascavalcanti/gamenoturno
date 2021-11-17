@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and(max-width: 720px){
+@media screen and(max-width: 720){
     main #lista{
         max-width: 90%;
         margin: 10px auto;
@@ -163,7 +163,7 @@ header img{
     width: 80px;    
 }
 
-main #lista{
+/*main #lista{
     max-width: 90%;
     margin: 10px auto;
 }
