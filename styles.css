@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and(max-height:1650px){
+@media screen and(max-width: 720px){
     main #lista{
         max-width: 90%;
         margin: 10px auto;
