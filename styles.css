@@ -9,6 +9,7 @@
         height: auto;
         margin: 50px 50px;
     }
+
     main #lista{
         max-width: 720px;
         margin: 10px auto;
@@ -30,16 +31,15 @@
         justify-content: space-between;
         align-items: center;
     
-        max-width: 40%;
+        max-width: 50%;
         height: 170px;
-        margin: 25px 25px;
     }
     main #lista #list .encard .jogo img{
-        width: 100px;
-        height: 50%;
+        width: 300px;
+        height: 100%;
         cursor: pointer;
         color: #756464;
-        margin: 10px 10px;
+        margin: -50px -50px;
     }
     main #lista #list .encard .jogo .item{
         margin: 100 10px 100 10px;
@@ -63,6 +63,7 @@
         
     }
 }
+
 #barra a{
     text-decoration: none;
     color: #000;
