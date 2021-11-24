@@ -25,7 +25,6 @@
     main #lista #list{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
     main #lista #list .encard{
         display: flex;
