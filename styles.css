@@ -7,7 +7,7 @@
     body .row{
         width: auto;
         height: auto;
-        margin: 50px 50px;
+        margin: 30px 30px;
     }
 
     main #lista{
@@ -62,6 +62,52 @@
         margin: 20px 10px;
         font-size: 15px;
         
+    }
+
+    #barra a{
+        text-decoration: none;
+        color: #000;
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    ul{
+        list-style: none;
+        top: 100px;
+        position: absolute;
+        width: 100%;
+    }
+    img{
+        width: 20px;
+    
+    }
+    input[type="checkbox"]{
+        display: none;
+    }
+    nav{
+        background-color: rgba(16, 16, 16, .5);
+        width: 200px;
+        height: 100%;
+        left: -200px;
+        position: absolute;
+        transition: all .10s;
+    }
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(200px);
+    }
+    #barra a{
+        display: block;
+        padding: 20px 5px;
+        color: #ffffff;
+    }
+    #barra a:hover{
+        background-color: rgb(176, 224, 230);
+        color: #000;
+    }
+    label{
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
     }
 }
 
