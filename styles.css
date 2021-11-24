@@ -39,7 +39,7 @@
         height: 100%;
         cursor: pointer;
         color: #756464;
-        margin: -50px -50px;
+        margin: 10px 50px 10px -50px;
     }
     main #lista #list .encard .jogo .item{
         margin: 100 10px 100 10px;
