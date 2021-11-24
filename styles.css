@@ -35,11 +35,11 @@
         max-width: 100%;
     }
     main #lista #list .encard .jogo img{
-        width: 100px;
-        height: 150px;
+        width: 250px;
+        height: 100%;
         cursor: pointer;
         color: #756464;
-        margin: 10px 10px 10px 10px;
+        margin: 10px 10px 10px -30px;
         background-color: blue;
     }
     main #lista #list .encard .jogo .item{
